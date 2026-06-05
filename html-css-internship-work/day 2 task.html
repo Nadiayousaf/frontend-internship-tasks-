@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+        <title>Create Container and arrange items in center.</title>
+    </head>
+    <style>
+        .parent{
+            background-color:blueviolet;
+            width:full_screen;
+            height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+        }
+        .child{
+            background-color:white;
+            width:300px;
+            height:250px;
+            display:flex;
+
+            border:1px solid black;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            font-size:12px;
+            font-weight:bold;
+        
+        }
+        .child h1{
+            margin: 10px ;
+            font-size: 24px;
+        }
+
+        .child p{
+
+            align-items: flex-end;
+            font-size: 14px;
+        }
+        .child img{
+              width:200px;
+              height:100px;
+              object-fit:cover;
+}
+       .price{
+             color:green;
+             font-size:18px;
+             font-weight:bold;
+}
+        
+    </style>
+    <body>
+        <div class="parent">
+        <div class="child">
+            <h1> Card 1</h1>
+            <img src="image1.jpg" alt="My Image">
+            <p>Dell: Reliable performance and strong build quality.</p>
+            <p class="price">price=$49.99</p>
+
+        </div>
+        
+        <div class="child">
+            <h1> Card 2 </h1>
+            <img src="image2.jpg" alt="My Image">
+
+            <p>HP: Stylish design with balanced performance.</p>
+            <p class="price">price=$59.99</p>
+
+        </div>
+
+        
+        <div class="child">
+            <h1> Card 3</h1>
+            <img src="image3.jpg" alt="My Image">
+            <p>Lenovo: Durable laptop with excellent productivity features.</p>
+            <p class="price">price=$69.99</p>
+
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<html>
+    <style>
+    .parent{
+        background-color:grey;
+        width:100vw;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: row;
+        flex-wrap:wrap;
+        gap:20px;
+     }
+     .child{
+        background-color:white;
+        width:200px;
+        height:350px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        font-size:14px;
+        font-weight:bold;
+        text-align:center;
+        box-shadow:0px 2px 10px rgba(0,0,0,0.2);
+        border-radius:10px;
+        gap:10px;
+     }
+     
+        .child h1{
+            margin: 10px ;
+            font-size: 24px;
+        }
+        .child p{
+             margin:5px 10px;
+        }
+
+        .child img{
+              width:200px;
+              height:100px;
+              object-fit:cover;
+              border-radius:10px 10px 0 0;
+
+}
+       .price{
+             color:green;
+             font-size:18px;
+             font-weight:bold;}
+        .button{
+            margin-top:auto;
+            margin-bottom:15px;
+
+            padding:8px 15px;
+            border:none;
+            border-radius:5px;
+
+            cursor:pointer;
+        }
+    </style>
+    <body>
+        <div class="parent">
+            <div class="child">
+            <img src="image1.jpg" alt="MyImage">
+
+            <h2>Dell Laptop</h2>
+            <p> Dell Laptop is very beneficial and GOOD. </p>
+            <p class="price">price=$49.99</p>
+            <button class="button">Buy Now</button>
+            </div>
+            <div class="child">
+            <img src="image2.jpg" alt="MyImage">
+            <h2>php Laptop</h2>
+
+            <p> php Laptop have Stylish design.</p>
+            <p class="price">price=$59.99</p>
+            <button class="button">Buy Now</button>
+            </div>
+
+            <div class="child">
+            <img src="image3.jpg" alt="MyImage">
+            <h2>lenovo Laptop</h2>
+
+            <p> Lenovo laptop have better performance. </p>
+            <p class="price">price=$69.99</p>
+            <button class="button">Buy Now</button>
+                    </div>
+          </div>
+        </div>
+    </body>
+</html>

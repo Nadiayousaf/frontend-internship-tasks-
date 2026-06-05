@@ -1,0 +1,56 @@
+<html>
+    <style>
+    .parent{
+        background-color:blueviolet;
+        width:100vw;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    .child{
+        background-color:aqua;
+        width:30%;
+        height:150px;
+        display:flex;
+        object-fit:cover;
+        justify-content:center;
+        align-items:center;
+        border-radius :10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+        overflow:hidden;
+    }
+    .child img{
+        width:150px;
+        height:100px;
+        object-fit:cover;
+    }
+    
+    </style>
+    <body>
+        <div class ="parent">
+            
+            <div class="child">
+                  <img src="image1.jpg" alt ="Myimage"> </div>
+            
+            <div class="child">
+                  <img src="image2.jpg" alt ="Myimage">
+            </div>   
+            <div class="child"> 
+                  <img src="image3.jpg" alt ="Myimage">
+            </div> 
+            <div class="child"> 
+                  <img src="image4.jpg" alt ="Myimage">
+            </div> 
+            <div class="child">
+                  <img src="image5.jpg" alt ="Myimage">
+            </div>
+            <div class="child">
+                  <img src="image6.jpg" alt ="Myimage">
+            </div>    
+        </div>
+    </body>
+</html>
